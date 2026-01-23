@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Push to GitHub",
+			"type": "shell",
+			"command": "git push origin main"
+		},
+		{
+			"label": "Pull from GitHub",
+			"type": "shell",
+			"command": "git pull origin main"
+		},
+		{
+			"label": "Check Git Status",
+			"type": "shell",
+			"command": "git status"
+		},
+		{
+			"label": "Commit Merge",
+			"type": "shell",
+			"command": "git commit -m \"Merge remote changes\""
+		},
+		{
+			"label": "Add all files",
+			"type": "shell",
+			"command": "git add ."
+		}
+	]
+}
