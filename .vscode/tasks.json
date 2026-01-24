@@ -25,6 +25,11 @@
 			"label": "Add all files",
 			"type": "shell",
 			"command": "git add ."
+		},
+		{
+			"label": "Commit Merge",
+			"type": "shell",
+			"command": "git commit -m \"Merge remote changes\""
 		}
 	]
 }
